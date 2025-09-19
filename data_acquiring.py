@@ -9,5 +9,5 @@ def download_and_load_dataset():
 
 if __name__ == "__main__":
     df = download_and_load_dataset()
-    print("Dataset preview:\n", df.head())
+    print("Dataset preview:\n", df.info())
     # print("Files in dataset:", kagglehub.list_files(path))
